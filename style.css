@@ -5,8 +5,11 @@
 }
 body {
   font-family: Helvetica, Arial, sans-serif;
-  padding: 0 5vw;
+
   letter-spacing: 0.1rem;
+}
+.section-class {
+  margin: 0 3%;
 }
 header {
   display: flex;
@@ -119,7 +122,9 @@ h2 {
 .second-section > a:hover {
   text-decoration: none;
 }
-
+.third-section {
+  margin-left: 3%;
+}
 #finance {
   background-color: rgba(10, 191, 83, 0.12);
   border-radius: 6px;
@@ -232,7 +237,7 @@ hr {
   h2 {
     font-size: 32px;
   }
-  .main-footer{
+  .main-footer {
     flex-wrap: wrap;
   }
 }
